@@ -20,7 +20,7 @@ let roundIndex;
 let finalScore;
 
 
-fetch('/../musicals.json')
+fetch('../musicals.json')
   .then(response => response.json())
   .then(musicals => {
     musicalsData = musicals;
