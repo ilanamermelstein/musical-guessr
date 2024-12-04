@@ -1,14 +1,14 @@
 @font-face {
     font-family: Playbill;
-    src: url(./Playbill.ttf);
+    src: url('/Playbill.ttf');
 }
 @font-face {
     font-family: BebasNeue;
-    src: url(./BebasNeue-Regular.ttf);
+    src: url('/BebasNeue-Regular.ttf');
 }
 @font-face {
     font-family: Roboto;
-    src: url(./Roboto-Regular.ttf);
+    src: url('/Roboto-Regular.ttf');
 }
 body{
     background-color: #F4F4F4;
@@ -23,10 +23,10 @@ main{
 }
 h1{
     font-family: Playbill, 'Georgia', 'Times New Roman';
-    font-size: 500%;
+    font-size: 400%;
     text-align: center;
-    font-weight: 200;
-    letter-spacing: .1rem;
+    font-weight: 100;
+    letter-spacing: .2rem;
     color: #FFD700;
 }
 h2{
