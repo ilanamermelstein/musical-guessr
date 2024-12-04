@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Preahvihear">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"> 
+    <!-- favicon from https://github.com/twitter/twemoji/blob/master/assets/svg/1f3ad.svg -->
+    <title>MusicalGuessr</title>
+</head>
+<body>
+    <div class = skip>
+        <a href = "#index_main">Skip to Main Content</a>
+        </div>
+    <header>
+        <div class="heading">
+        <h1>MusicalGuessr</h1>
+        <img src="images/right.png" class="icon" onclick="hamburgerMenu()">
+        <!-- a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by HideMaru - Flaticon -->
+        </div>
+        <nav>
+            <ul id="navLinks">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="menu"><a href="instructions.html">How To Play</a></li>
+                <li class="menu"><a href="about.html">About the Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="homepage">
+        <h2>Guess the Broadway musical based on a one-sentence summary and its year at the Tony Awards!</h2>
+        <p>Think you know your Broadway musicals? Put your knowledge to the test!</p>
+        <p>You'll be tasked with writing the full name of 10 Tony-nominated Broadway musicals based on:</p>
+        <ul>
+            <li>A one-sentence summary of the musical's plot</li>
+            <li>The year it was nominated for Best Musical at the Tony Awards</li>
+        </ul>
+        <br>
+        <br>
+        <button class="playButton" id="playHome" tabindex="0"><a href=play.html>Let's Play!</a></button>
+    </main>
+<script src="js/finalproj.js"></script>
+</body>
+</html>

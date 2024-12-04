@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Preahvihear">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"> 
+    <!-- favicon from https://github.com/twitter/twemoji/blob/master/assets/svg/1f3ad.svg -->
+    <title>Instructions</title>
+</head>
+<body>
+    <div class = skip>
+        <a href = "#instructions_main">Skip to Main Content</a>
+        </div>
+    <header>
+        <div class="heading">
+        <h1>How to Play</h1>
+        <a class="icon" onclick="hamburgerMenu()"><img src="images/right.png"></a>
+            <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by HideMaru - Flaticon</a> -->
+        </div>
+        <nav>
+            <ul id="navLinks">
+                <li class="menu"><a href="index.html">Home</a></li>
+                <li class="active"><a href="instructions.html">How To Play</a></li>
+                <li class="menu"><a href="about.html">About the Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Overview</h2>
+        <p>MusicalGuessr is a game for musical lovers to put their knowledge to the test! In each of 10 rounds, you'll be given a short summary of a Broadway musical and the year in which it was nominated for the Tony Award for Best Musical, and you'll have to correctly submit the full name of the musical to earn points.</p>
+        <h2>How It Works</h2>
+        <ul>
+        <li>For each round, you'll have 3 chances to guess the title of the musical.</li>
+        <li>Capitalization and punctuation do not matter, and subtitles have been removed. That is, if a musical title ends in :The Musical or :The Demon Barber of Fleet Street, you do not need to enter those when guessing!</li>
+        <li>We do not currently offer hints between guesses, but we may add that functionality in future versions of the game.</li>
+        <li>At the top of the page, you'll be able to see which round you are currenty on, as well as your score up to that point.</li>
+        </ul>
+        <h2>Scoring</h2>
+        <ul>
+        <li>In each round, you will have the potential to earn 3 points, so the highest possible score in each game is 30 points.</li>
+        <li>If you guess the musical correctly on the first try, you will earn 3 points for that round. If you guess the musical correctly on the second try, you will earn 2 points for that round. If you guess the musical correctly on the third try, you will earn 1 point for that round. If you do not guess the musical correctly after 3 tries, you will earn 0 points for that round, and we will proceed to the next round.</li>
+        <li>All the points you have accumulated will be summed as you play and will be available at the top of the page.</li>
+        </ul>
+        <br>
+        <h2>Ready to play?</h2>
+        <br>
+        <button class="playButton" id="playInstr"><a href=play.html>Let's Play!</a></button>
+    </main>
+<script src="js/finalproj.js"></script>
+</body>
+</html>

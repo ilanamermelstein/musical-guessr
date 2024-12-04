@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Preahvihear">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"> 
+    <!-- favicon from https://github.com/twitter/twemoji/blob/master/assets/svg/1f3ad.svg -->
+    <title>Play MusicalGuessr</title>
+</head>
+<body>
+    <div class = skip>
+        <a href = "#play_main">Skip to Main Content</a>
+        </div>
+    <header>
+        <div class="heading">
+        <h1>Play MusicalGuessr</h1>
+        <a class="icon" onclick="hamburgerMenu()"><img src="images/right.png"></a>
+            <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by HideMaru - Flaticon</a> -->
+        </div>
+        <nav>
+            <ul id="navLinks">
+                <li class="menu"><a href="index.html">Home</a></li>
+                <li class="menu"><a href="instructions.html">How To Play</a></li>
+                <li class="menu"><a href="about.html">About the Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Round <span id="round"></span> of 10</h2>
+        <h2>Score: <span id="currentScore"></span></h2>
+        <br>
+        <div id="startGame">
+        <button class="playPageButton">Start Game</button>
+        </div>
+        <br>
+        <div id="gamePlay">
+        <h3>Guess the musical!</h3>
+        <br>
+        <p><b>Summary:</b> <span id="musicalSummary"></span></p>
+        <p><b>Year at the Tony Awards:</b> <span id="yearOfNom"></span></p>
+        <br>
+        <form id="guessForm">
+            <label for="guess"><b>The Musical Is:</b></label>
+            <input type="text" id="guess" name="guess" placeholder="Type Your Guess Here">
+        </form>
+        <br>
+        <button type="submit" class="playPageButton" id="guessButton">Guess</button>
+        <br>
+        <p id="correct"></p>
+        <br>
+        <p>Remaining Guesses for This Round: <span id="remainingGuesses"></span></p>
+        </div>
+        <button class="playPageButton" id="nextRound">Go to Next Round</button>
+        <button class="playPageButton" id="getFinalScore"><a href=finalscore.html>Go to Final Score</a></button>
+    </main>
+<script src="js/finalproj.js"></script>
+</body>
+</html>

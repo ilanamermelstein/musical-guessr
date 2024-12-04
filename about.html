@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Preahvihear">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"> 
+    <!-- favicon from https://github.com/twitter/twemoji/blob/master/assets/svg/1f3ad.svg -->
+    <title>About</title>
+</head>
+<body>
+    <div class = skip>
+        <a href = "#about_main">Skip to Main Content</a>
+        </div>
+    <header>
+        <div class="heading">
+        <h1>About the Game</h1>
+        <a class="icon" onclick="hamburgerMenu()"><img src="images/right.png"></a>
+        <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by HideMaru - Flaticon</a> -->
+        </div>
+        <nav>
+            <ul id="navLinks">
+                <li class="menu"><a href="index.html">Home</a></li>
+                <li class="menu"><a href="instructions.html">How To Play</a></li>
+                <li class="active"><a href="about.html">About the Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>The Developer</h2>
+        <br>
+        <div class="about">
+        <h3 id="about1">Ilana Mermelstein</h3>
+        <img id="about2" src="images/ilana_image.jpg" alt="A girl in a blue dress smiles and stands against a pillar." width="50%">
+        <div id="about3">
+        <p>Ilana is a first-year MSI student at the University of Michigan concentrating in UX Research. In her coursework, she has discovered an interest in programming, which is why she decided to create a game for her final web design project.</p><br>
+        <p>Ilana is not only a student, UX Researcher, and novice programmer, but a proud theater kid. She acted, sang, and danced in musicals from age 7 to age 14. Although she no longer participates as a cast member, she still loves seeing musicals at the University of Michigan, listening to Broadway Original Cast Recordings, and stays up to date on the news in the theater world</p><br>
+        <p>Ilana's longstanding love for theater and new interest in programming inspired her to make a game related to Broadway musicals, and thus, MusicalGuessr was born!</p>
+        </div>
+        <div id="about4" class="theaterPics">
+        <img src="images/crazy_for_you.jpeg" alt="A girl in a red wig and blue dress costume dances on stage.">
+        <img src="images/into_the_woods.jpeg" alt="A girl in a white dress with an apron stands on stage smiling holding a red cape.">
+        </div>
+        </div>
+        <br>
+        <div class="about">
+        <h2 id="about5">The Program</h2>
+        <div id="about6">
+        <p>MusicalGuessr was developed as a final project for SI 539 - Web Design: Responsiveness and Accessibility. The site was coded in HTML5, CSS, and JavaScript.</p>
+        <p>The data including each Broadway musical nominated for Best Musical at the Tony Awards was retrieved from <a href="https://en.wikipedia.org/wiki/Tony_Award_for_Best_Musical">Wikipedia</a>, and the one-sentence summaries were generated with <a href="https://umgpt.umich.edu/">UM-GPT</a>.</p>
+        <p>The <a href="https://github.com/ilanamermelstein/539-final">GitHub repository</a> for the game is publicly available online.</p>
+        </div>
+        </div>
+    </main>
+<script src="js/finalproj.js"></script>
+</body>
+</html>

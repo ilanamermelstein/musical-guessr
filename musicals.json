@@ -1,0 +1,1382 @@
+[
+  {
+    "Year": "1949",
+    "Title": "Kiss Me, Kate",
+    "Summary": "A musical adaptation of Shakespeare's \"The Taming of the Shrew\" set backstage of a production of the play, focusing on the tumultuous relationship of its stars."
+  },
+  {
+    "Year": "1950",
+    "Title": "South Pacific",
+    "Summary": "Set during World War II, this musical explores themes of love and prejudice through intertwined stories on a Pacific island."
+  },
+  {
+    "Year": "1951",
+    "Title": "Guys and Dolls",
+    "Summary": "A romantic comedy featuring gamblers, showgirls, and a mission worker in New York City."
+  },
+  {
+    "Year": "1952",
+    "Title": "The King and I",
+    "Summary": "The story of an English widow who becomes the governess to the children of the King of Siam."
+  },
+  {
+    "Year": "1953",
+    "Title": "Wonderful Town",
+    "Summary": "Chronicles the adventures of two sisters from Ohio trying to make it in bohemian 1930s Greenwich Village."
+  },
+  {
+    "Year": "1954",
+    "Title": "Kismet",
+    "Summary": "A story of a street poet who charms his way into the royal court in ancient Baghdad."
+  },
+  {
+    "Year": "1955",
+    "Title": "The Pajama Game",
+    "Summary": "Highlights labor tensions in a pajama factory and a romance between management and union leadership."
+  },
+  {
+    "Year": "1956",
+    "Title": "Pipe Dream",
+    "Summary": "A tale of dreamers and drifters in a coastal Californian town, focusing on their struggles for a better future."
+  },
+  {
+    "Year": "1956",
+    "Title": "Damn Yankees",
+    "Summary": "A middle-aged baseball fan sells his soul to the devil to help his favorite team win the pennant."
+  },
+  {
+    "Year": "1957",
+    "Title": "The Most Happy Fella",
+    "Summary": "A love story between an older vineyard owner and a younger waitress set in Napa Valley."
+  },
+  {
+    "Year": "1957",
+    "Title": "My Fair Lady",
+    "Summary": "A linguistics professor attempts to transform a Cockney flower girl into a refined lady."
+  },
+  {
+    "Year": "1957",
+    "Title": "Candide",
+    "Summary": "Follows the optimistic but hapless protagonist through misadventures across the globe."
+  },
+  {
+    "Year": "1957",
+    "Title": "Bells Are Ringing",
+    "Summary": "Centers on a lonely telephone answering service operator who becomes overly involved in the lives of her clients."
+  },
+  {
+    "Year": "1958",
+    "Title": "West Side Story",
+    "Summary": "A tragic love story set amidst gang rivalry in New York City."
+  },
+  {
+    "Year": "1958",
+    "Title": "The Music Man",
+    "Summary": "A con man poses as a boys' band organizer and leader to scam a small town, but ends up falling in love with the local librarian."
+  },
+  {
+    "Year": "1958",
+    "Title": "Oh, Captain!",
+    "Summary": "A ship captain struggles with temptation and loyalty while ashore."
+  },
+  {
+    "Year": "1958",
+    "Title": "New Girl in Town",
+    "Summary": "Depicts the story of a woman trying to start a new life while contending with her past."
+  },
+  {
+    "Year": "1958",
+    "Title": "Jamaica",
+    "Summary": "A comedic love triangle set on a picturesque Caribbean island."
+  },
+  {
+    "Year": "1959",
+    "Title": "Redhead",
+    "Summary": "A murder mystery musical set in a wax museum in Victorian London."
+  },
+  {
+    "Year": "1959",
+    "Title": "La Plume de Ma Tante",
+    "Summary": "A revue focused on the comedic aspects of French culture and manners."
+  },
+  {
+    "Year": "1959",
+    "Title": "Flower Drum Song",
+    "Summary": "Explores the clash between traditional Chinese values and American modernization within a Chinese-American family."
+  },
+  {
+    "Year": "1960",
+    "Title": "The Sound of Music",
+    "Summary": "A lively young governess brings joy and music to the family of a strict naval captain."
+  },
+  {
+    "Year": "1960",
+    "Title": "Take Me Along",
+    "Summary": "Chronicles a small-town family and their quirks when a fun-loving uncle visits."
+  },
+  {
+    "Year": "1960",
+    "Title": "Once Upon a Mattress",
+    "Summary": "A comedic retelling of the fairy tale \"The Princess and the Pea.\""
+  },
+  {
+    "Year": "1960",
+    "Title": "Gypsy",
+    "Summary": "The narrative follows the ambitious stage mother of the famous striptease artist Gypsy Rose Lee."
+  },
+  {
+    "Year": "1960",
+    "Title": "Fiorello!",
+    "Summary": "Chronicles the life and career of Fiorello LaGuardia, New York City\u2019s mayor."
+  },
+  {
+    "Year": "1961",
+    "Title": "Irma La Douce",
+    "Summary": "Revolves around a French street walker and her love-struck, innocuous suitor."
+  },
+  {
+    "Year": "1961",
+    "Title": "Do Re Mi",
+    "Summary": "Follows a small-time con man as he tries to get rich through the juke-box industry."
+  },
+  {
+    "Year": "1961",
+    "Title": "Bye Bye Birdie",
+    "Summary": "Explores the chaos in a small town when a rock-and-roll star visits as part of a publicity stunt."
+  },
+  {
+    "Year": "1962",
+    "Title": "No Strings",
+    "Summary": "A romance between an American writer and an African-American model in Paris."
+  },
+  {
+    "Year": "1962",
+    "Title": "Milk and Honey",
+    "Summary": "Focuses on American tourists in Israel and the birth of love in a new land."
+  },
+  {
+    "Year": "1962",
+    "Title": "How to Succeed in Business Without Really Trying",
+    "Summary": "A satire on corporate life, following a young man's rise from window washer to high executive."
+  },
+  {
+    "Year": "1962",
+    "Title": "Carnival!",
+    "Summary": "A lonely orphan joins a circus and finds herself in a complicated love triangle."
+  },
+  {
+    "Year": "1963",
+    "Title": "Stop the World \u2013 I Want to Get Off",
+    "Summary": "A man\u2019s life is portrayed as a circus in this semi-autobiographical musical."
+  },
+  {
+    "Year": "1963",
+    "Title": "Oliver!",
+    "Summary": "An adaptation of Dickens\u2019s \"Oliver Twist,\" following an orphan\u2019s adventures in Victorian London."
+  },
+  {
+    "Year": "1963",
+    "Title": "Little Me",
+    "Summary": "A woman's rags to riches story as she attempts to win the man of her dreams."
+  },
+  {
+    "Year": "1963",
+    "Title": "A Funny Thing Happened on the Way to the Forum",
+    "Summary": "A slave attempts to win his freedom by helping his master woo the girl next door."
+  },
+  {
+    "Year": "1964",
+    "Title": "She Loves Me",
+    "Summary": "Two bickering co-workers at a perfumery unaware they are each other\u2019s romantic pen pals."
+  },
+  {
+    "Year": "1964",
+    "Title": "High Spirits",
+    "Summary": "A widow's home is turned upside down when the ghost of her husband appears during a seance."
+  },
+  {
+    "Year": "1964",
+    "Title": "Hello, Dolly!",
+    "Summary": "A matchmaker decides to find a match for herself in the wealthy Horace Vandergelder."
+  },
+  {
+    "Year": "1964",
+    "Title": "Funny Girl",
+    "Summary": "Chronicles the life and career of comedienne Fanny Brice, from her rise to stardom through her turbulent romantic life."
+  },
+  {
+    "Year": "1965",
+    "Title": "Oh, What a Lovely War!",
+    "Summary": "A satirical take on World War I, presented as a circus-like revue."
+  },
+  {
+    "Year": "1965",
+    "Title": "Half a Sixpence",
+    "Summary": "Follows an orphan's sudden wealth and subsequent struggles with love and identity."
+  },
+  {
+    "Year": "1965",
+    "Title": "Golden Boy",
+    "Summary": "Charts the rise and fall of a young boxer who sacrifices everything for success."
+  },
+  {
+    "Year": "1965",
+    "Title": "Fiddler on the Roof",
+    "Summary": "Explores the traditions and struggles of a Jewish family in pre-revolutionary Russia."
+  },
+  {
+    "Year": "1966",
+    "Title": "Sweet Charity",
+    "Summary": "Chronicles the romantic misadventures of a dance hall hostess with eternal optimism."
+  },
+  {
+    "Year": "1966",
+    "Title": "Skyscraper",
+    "Summary": "A lighthearted story about a developer\u2019s plans to demolish and rebuild an aging apartment building."
+  },
+  {
+    "Year": "1966",
+    "Title": "Man of La Mancha",
+    "Summary": "Miguel de Cervantes and his character Don Quixote embark on a quest to bring chivalry to life."
+  },
+  {
+    "Year": "1966",
+    "Title": "Mame",
+    "Summary": "Follows the vibrant Auntie Mame and her adventures bringing up her orphaned nephew."
+  },
+  {
+    "Year": "1967",
+    "Title": "Walking Happy",
+    "Summary": "A young woman's romantic entanglements with two men in Edwardian England."
+  },
+  {
+    "Year": "1967",
+    "Title": "The Apple Tree",
+    "Summary": "An anthology of three different stories exploring love and temptation."
+  },
+  {
+    "Year": "1967",
+    "Title": "I Do! I Do!",
+    "Summary": "Chronicles fifty years of a married couple's life through their tumultuous yet loving relationship."
+  },
+  {
+    "Year": "1967",
+    "Title": "Cabaret",
+    "Summary": "Set in 1930s Berlin, the story revolves around the lives of performers at the Kit Kat Klub as the Nazis rise to power."
+  },
+  {
+    "Year": "1968",
+    "Title": "The Happy Time",
+    "Summary": "A photographer returns to his childhood home, rekindling old relationships and reconnecting with his past."
+  },
+  {
+    "Year": "1968",
+    "Title": "Illya Darling",
+    "Summary": "An adaptation of \"Never on Sunday\" about a Greek woman with a zest for life who meets an American stranger."
+  },
+  {
+    "Year": "1968",
+    "Title": "How Now, Dow Jones",
+    "Summary": "A musical comedy revolving around the stock market and a woman\u2019s dream of finding love."
+  },
+  {
+    "Year": "1968",
+    "Title": "Hallelujah, Baby!",
+    "Summary": "Chronicles the life of an African-American woman, emphasizing her fight for equality and her rise to stardom."
+  },
+  {
+    "Year": "1969",
+    "Title": "Zorba",
+    "Summary": "Follows the passionate and adventurous titular character as he influences those around him on Crete."
+  },
+  {
+    "Year": "1969",
+    "Title": "Promises, Promises",
+    "Summary": "A corporate drudge lets his executives use his apartment for extramarital affairs but has a change of heart."
+  },
+  {
+    "Year": "1969",
+    "Title": "Hair",
+    "Summary": "A portrayal of the 1960s counterculture and sexual revolution through the lives of a group of young hippies."
+  },
+  {
+    "Year": "1969",
+    "Title": "1776",
+    "Summary": "A dramatization of the events leading up to the signing of the Declaration of Independence."
+  },
+  {
+    "Year": "1970",
+    "Title": "Purlie",
+    "Summary": "A preacher returns to his hometown to save the local church and secure justice for his community."
+  },
+  {
+    "Year": "1970",
+    "Title": "Coco",
+    "Summary": "A semi-biographical musical about the legendary fashion designer Coco Chanel\u2019s return to the industry."
+  },
+  {
+    "Year": "1970",
+    "Title": "Applause",
+    "Summary": "An aging actress becomes a mentor to a young aspiring actress, only to find herself threatened by her prot\u00e9g\u00e9\u2019s ambitions."
+  },
+  {
+    "Year": "1971",
+    "Title": "The Rothschilds",
+    "Summary": "Chronicles the rise of the Rothschild banking family and their influence in European economics and politics."
+  },
+  {
+    "Year": "1971",
+    "Title": "The Me Nobody Knows",
+    "Summary": "A musical collage of the thoughts, hopes, and dreams of urban youth."
+  },
+  {
+    "Year": "1971",
+    "Title": "Company",
+    "Summary": "Examines the complexities of relationships and marriage through the experiences of a single man and his married friends."
+  },
+  {
+    "Year": "1972",
+    "Title": "Two Gentlemen of Verona",
+    "Summary": "A musical adaptation of Shakespeare\u2019s comedy about friendship and tumultuous love."
+  },
+  {
+    "Year": "1972",
+    "Title": "Grease",
+    "Summary": "Follows the loves and lives of teenagers at Rydell High in the 1950s."
+  },
+  {
+    "Year": "1972",
+    "Title": "Follies",
+    "Summary": "Past and present mesh as the former stars of a revue reunite in their now-dilapidated theater."
+  },
+  {
+    "Year": "1972",
+    "Title": "Ain't Supposed to Die a Natural Death",
+    "Summary": "A gritty, street-wise musical depicting the struggles of African-Americans in urban America."
+  },
+  {
+    "Year": "1973",
+    "Title": "Sugar",
+    "Summary": "Based on \"Some Like It Hot,\" follows two musicians who disguise themselves as women to escape mobsters."
+  },
+  {
+    "Year": "1973",
+    "Title": "Pippin",
+    "Summary": "A young prince searches for meaning and purpose in his life, guided by a circus-like troupe."
+  },
+  {
+    "Year": "1973",
+    "Title": "Don't Bother Me, I Can't Cope",
+    "Summary": "A revue addressing African-American identity and racial challenges with humor and music."
+  },
+  {
+    "Year": "1973",
+    "Title": "A Little Night Music",
+    "Summary": "A romantic farce that features interlocking love stories over a weekend in the Swedish countryside."
+  },
+  {
+    "Year": "1974",
+    "Title": "Seesaw",
+    "Summary": "Centers on an unlikely romance between a simple farm girl and a sophisticated New York dancer."
+  },
+  {
+    "Year": "1974",
+    "Title": "Raisin",
+    "Summary": "An adaptation of \"A Raisin in the Sun,\" highlighting an African-American family\u2019s fight for betterment."
+  },
+  {
+    "Year": "1974",
+    "Title": "Over Here!",
+    "Summary": "Celebrates the US home front during World War II through nostalgic songs and stories."
+  },
+  {
+    "Year": "1975",
+    "Title": "The Wiz",
+    "Summary": "An African-American retelling of \"The Wizard of Oz,\" blending familiar characters with an urban twist."
+  },
+  {
+    "Year": "1975",
+    "Title": "The Lieutenant",
+    "Summary": "A controversial musical about the Vietnam War focusing on the My Lai Massacre."
+  },
+  {
+    "Year": "1975",
+    "Title": "Shenandoah",
+    "Summary": "A heartfelt story about a Virginian family\u2019s struggles during the American Civil War."
+  },
+  {
+    "Year": "1975",
+    "Title": "Mack and Mabel",
+    "Summary": "Explores the tumultuous relationship between silent film director Mack Sennett and star Mabel Normand."
+  },
+  {
+    "Year": "1976",
+    "Title": "Pacific Overtures",
+    "Summary": "Explores the Westernization of Japan beginning in 1853, through the eyes of ordinary Japanese people."
+  },
+  {
+    "Year": "1976",
+    "Title": "Chicago",
+    "Summary": "Satirizes the corruption and celebrity of crime in Jazz Age Chicago."
+  },
+  {
+    "Year": "1976",
+    "Title": "Bubbling Brown Sugar",
+    "Summary": "A musical revue celebrating the music and culture of Harlem in the 1920s and 1930s."
+  },
+  {
+    "Year": "1976",
+    "Title": "A Chorus Line",
+    "Summary": "Chronicles the lives and aspirations of Broadway dancers auditioning for a show."
+  },
+  {
+    "Year": "1977",
+    "Title": "Side by Side by Sondheim",
+    "Summary": "A revue showcasing the early works of Stephen Sondheim."
+  },
+  {
+    "Year": "1977",
+    "Title": "I Love My Wife",
+    "Summary": "A comedic tale of suburban swingers in the 1970s exploring open marriage."
+  },
+  {
+    "Year": "1977",
+    "Title": "Happy End",
+    "Summary": "A gangster meets a Salvation Army worker in this farcical tale set in Chicago."
+  },
+  {
+    "Year": "1977",
+    "Title": "Annie",
+    "Summary": "An orphan\u2019s adventures in search of her parents amidst the backdrop of the Great Depression."
+  },
+  {
+    "Year": "1978",
+    "Title": "Runaways",
+    "Summary": "A musical collage portraying the lives and dreams of teenage runaways."
+  },
+  {
+    "Year": "1978",
+    "Title": "On the Twentieth Century",
+    "Summary": "A madcap tale aboard a luxury train about a Broadway producer and a Hollywood star."
+  },
+  {
+    "Year": "1978",
+    "Title": "Dancin'",
+    "Summary": "A revue featuring the choreography of Bob Fosse."
+  },
+  {
+    "Year": "1978",
+    "Title": "Ain't Misbehavin'",
+    "Summary": "Celebrates the music of Fats Waller and the Harlem Renaissance."
+  },
+  {
+    "Year": "1979",
+    "Title": "They're Playing Our Song",
+    "Summary": "A musical comedy about the romance between a composer and a lyricist."
+  },
+  {
+    "Year": "1979",
+    "Title": "The Best Little Whorehouse in Texas",
+    "Summary": "Chronicles the true story of a beloved Texas brothel facing closure."
+  },
+  {
+    "Year": "1979",
+    "Title": "Sweeney Todd",
+    "Summary": "A dark tale of revenge involving a barber and his partner in crime."
+  },
+  {
+    "Year": "1979",
+    "Title": "Ballroom",
+    "Summary": "A widow rediscovers life and love in the New York City ballroom dancing scene."
+  },
+  {
+    "Year": "1980",
+    "Title": "Sugar Babies",
+    "Summary": "A burlesque revue filled with comedy sketches, songs, and dances."
+  },
+  {
+    "Year": "1980",
+    "Title": "Evita",
+    "Summary": "The life and death of Eva Per\u00f3n, the First Lady of Argentina."
+  },
+  {
+    "Year": "1980",
+    "Title": "Barnum",
+    "Summary": "The colorful life and career of showman P.T. Barnum."
+  },
+  {
+    "Year": "1980",
+    "Title": "A Day in Hollywood / A Night in the Ukraine",
+    "Summary": "A double bill featuring a tribute to Hollywood musicals and a Marx Brothers\u2013style farce."
+  },
+  {
+    "Year": "1981",
+    "Title": "Woman of the Year",
+    "Summary": "A successful career woman balances love and professional life."
+  },
+  {
+    "Year": "1981",
+    "Title": "Tintypes",
+    "Summary": "A musical revue depicting America at the dawn of the 20th century."
+  },
+  {
+    "Year": "1981",
+    "Title": "Sophisticated Ladies",
+    "Summary": "A revue celebrating the music of Duke Ellington."
+  },
+  {
+    "Year": "1981",
+    "Title": "42nd Street",
+    "Summary": "Follows a chorus girl who becomes the star of a Broadway show."
+  },
+  {
+    "Year": "1982",
+    "Title": "Pump Boys and Dinettes",
+    "Summary": "A country musical set in a gas station and diner."
+  },
+  {
+    "Year": "1982",
+    "Title": "Nine",
+    "Summary": "Follows a film director\u2019s midlife crisis amidst his relationships with various women."
+  },
+  {
+    "Year": "1982",
+    "Title": "Joseph and the Amazing Technicolor Dreamcoat",
+    "Summary": "A vibrant retelling of the biblical story of Joseph and his brothers."
+  },
+  {
+    "Year": "1982",
+    "Title": "Dreamgirls",
+    "Summary": "Follows the rise of a girl group in the 1960s and the personal and professional struggles they face."
+  },
+  {
+    "Year": "1983",
+    "Title": "My One and Only",
+    "Summary": "A love story set against the backdrop of the Roaring Twenties."
+  },
+  {
+    "Year": "1983",
+    "Title": "Merlin",
+    "Summary": "Reimagines the tale of the legendary magician with a mix of magic and music."
+  },
+  {
+    "Year": "1983",
+    "Title": "Cats",
+    "Summary": "A group of cats gather to decide which one will ascend to the Heaviside Layer and be reborn."
+  },
+  {
+    "Year": "1983",
+    "Title": "Blues in the Night",
+    "Summary": "A musical revue featuring blues songs that weave stories of love and resilience."
+  },
+  {
+    "Year": "1984",
+    "Title": "The Tap Dance Kid",
+    "Summary": "Centers on a young boy\u2019s dream to become a tap dancer against family expectations."
+  },
+  {
+    "Year": "1984",
+    "Title": "Sunday in the Park with George",
+    "Summary": "Explores the life of artist Georges Seurat and his creation of \"A Sunday Afternoon on the Island of La Grande Jatte.\""
+  },
+  {
+    "Year": "1984",
+    "Title": "La Cage aux Folles",
+    "Summary": "A drag nightclub owner and his partner navigate family dynamics and societal norms."
+  },
+  {
+    "Year": "1984",
+    "Title": "Baby",
+    "Summary": "Focuses on three couples at different stages of their relationships dealing with pregnancy."
+  },
+  {
+    "Year": "1985",
+    "Title": "Quilters",
+    "Summary": "Celebrates the quilting traditions and stories of pioneer women."
+  },
+  {
+    "Year": "1985",
+    "Title": "Leader of the Pack",
+    "Summary": "A jukebox musical featuring the life and music of Ellie Greenwich."
+  },
+  {
+    "Year": "1985",
+    "Title": "Grind",
+    "Summary": "Explores racial and social issues set in a burlesque house."
+  },
+  {
+    "Year": "1985",
+    "Title": "Big River",
+    "Summary": "A musical adaptation of Mark Twain's \"The Adventures of Huckleberry Finn.\""
+  },
+  {
+    "Year": "1986",
+    "Title": "The Mystery of Edwin Drood",
+    "Summary": "An interactive, unfinished murder mystery based on Charles Dickens\u2019s last novel."
+  },
+  {
+    "Year": "1986",
+    "Title": "Tango Argentino",
+    "Summary": "A celebration of the tango through dance and music."
+  },
+  {
+    "Year": "1986",
+    "Title": "Song and Dance",
+    "Summary": "A two-act show with the first part a song cycle and the second a ballet."
+  },
+  {
+    "Year": "1986",
+    "Title": "Big Deal",
+    "Summary": "A musical comedy featuring Bob Fosse's choreography set against a backdrop of crime and humor."
+  },
+  {
+    "Year": "1987",
+    "Title": "Starlight Express",
+    "Summary": "A roller-skating musical about a young train\u2019s dream to become the fastest engine in the world."
+  },
+  {
+    "Year": "1987",
+    "Title": "Rags",
+    "Summary": "Follows an immigrant\u2019s experience in America and the pursuit of the American Dream."
+  },
+  {
+    "Year": "1987",
+    "Title": "Me and My Girl",
+    "Summary": "A cockney gentleman discovers he\u2019s the heir to a title and fortune but must adjust to his new roles."
+  },
+  {
+    "Year": "1987",
+    "Title": "Les Mis\u00e9rables",
+    "Summary": "Based on Victor Hugo's novel, exploring themes of justice, love, and redemption in revolutionary France."
+  },
+  {
+    "Year": "1988",
+    "Title": "The Phantom of the Opera",
+    "Summary": "A mysterious masked man haunts the Paris Opera House and falls in love with a young soprano."
+  },
+  {
+    "Year": "1988",
+    "Title": "Sarafina!",
+    "Summary": "A musical about the struggles of apartheid through the eyes of South African students."
+  },
+  {
+    "Year": "1988",
+    "Title": "Romance/Romance",
+    "Summary": "An anthology of two one-act musicals dealing with love and relationships."
+  },
+  {
+    "Year": "1988",
+    "Title": "Into the Woods",
+    "Summary": "A mash-up of fairy tales exploring the consequences of the characters' wishes and quests."
+  },
+  {
+    "Year": "1989",
+    "Title": "Starmites",
+    "Summary": "A sci-fi musical adventure featuring a teenager's journey into a comic book world."
+  },
+  {
+    "Year": "1989",
+    "Title": "Jerome Robbins' Broadway",
+    "Summary": "A retrospective revue showcasing the work of director-choreographer Jerome Robbins."
+  },
+  {
+    "Year": "1989",
+    "Title": "Black and Blue",
+    "Summary": "A revue celebrating the culture of Black Americans during the Harlem Renaissance."
+  },
+  {
+    "Year": "1990",
+    "Title": "Meet Me in St. Louis",
+    "Summary": "A family's experiences and their anticipation for the 1904 World's Fair."
+  },
+  {
+    "Year": "1990",
+    "Title": "Grand Hotel",
+    "Summary": "Follows various guests and staff in a luxurious Berlin hotel and their intersecting lives."
+  },
+  {
+    "Year": "1990",
+    "Title": "City of Angels",
+    "Summary": "A dual storyline featuring a writer working on a screenplay and the fictional detective in the story."
+  },
+  {
+    "Year": "1990",
+    "Title": "Aspects of Love",
+    "Summary": "Centers on romantic entanglements across generations, set in France."
+  },
+  {
+    "Year": "1991",
+    "Title": "The Will Rogers Follies",
+    "Summary": "A biographical musical depicting the life of the humorist and performer Will Rogers."
+  },
+  {
+    "Year": "1991",
+    "Title": "The Secret Garden",
+    "Summary": "Adaptation of the novel about a girl who revitalizes a mysterious, hidden garden."
+  },
+  {
+    "Year": "1991",
+    "Title": "Once on This Island",
+    "Summary": "A tale of love and acceptance set in the Caribbean as a peasant girl pursues her destiny with the gods' guidance."
+  },
+  {
+    "Year": "1991",
+    "Title": "Miss Saigon",
+    "Summary": "A retelling of \"Madame Butterfly,\" set during the Vietnam War."
+  },
+  {
+    "Year": "1992",
+    "Title": "Jelly's Last Jam",
+    "Summary": "Chronicles the life of jazz pioneer Jelly Roll Morton."
+  },
+  {
+    "Year": "1992",
+    "Title": "Five Guys Named Moe",
+    "Summary": "A jukebox musical celebrating the songs of Louis Jordan through lively performances."
+  },
+  {
+    "Year": "1992",
+    "Title": "Falsettos",
+    "Summary": "Explores the dynamics of a modern family dealing with love, responsibility, and the AIDS crisis."
+  },
+  {
+    "Year": "1992",
+    "Title": "Crazy for You",
+    "Summary": "A madcap tale of a banker turned showman who revitalizes a theater in a small town."
+  },
+  {
+    "Year": "1993",
+    "Title": "The Who's Tommy",
+    "Summary": "The story of a psychosomatically deaf, dumb, and blind boy who becomes a pinball champion."
+  },
+  {
+    "Year": "1993",
+    "Title": "The Goodbye Girl",
+    "Summary": "Follows the humorous and poignant relationship between a dancer and a single mother."
+  },
+  {
+    "Year": "1993",
+    "Title": "Kiss of the Spider Woman",
+    "Summary": "A complex tale of two men sharing a prison cell in a Latin American country."
+  },
+  {
+    "Year": "1993",
+    "Title": "Blood Brothers",
+    "Summary": "Tells the story of twin brothers separated at birth who grow up in contrasting socioeconomic conditions."
+  },
+  {
+    "Year": "1994",
+    "Title": "Passion",
+    "Summary": "A tale of obsessive love between an ailing woman and a soldier in 19th-century Italy."
+  },
+  {
+    "Year": "1994",
+    "Title": "Cyrano: The Musical",
+    "Summary": "A musical adaptation of Edmond Rostand\u2019s play about the eloquent yet self-doubting Cyrano de Bergerac."
+  },
+  {
+    "Year": "1994",
+    "Title": "Beauty and the Beast",
+    "Summary": "The enchanted tale of a young woman and her transforming love for a cursed beast."
+  },
+  {
+    "Year": "1994",
+    "Title": "A Grand Night for Singing",
+    "Summary": "A revue celebrating the songs of Rodgers and Hammerstein."
+  },
+  {
+    "Year": "1995",
+    "Title": "Sunset Boulevard",
+    "Summary": "Follows the tragic tale of a faded silent film star and her delusional quest for a comeback."
+  },
+  {
+    "Year": "1995",
+    "Title": "Smokey Joe's Cafe",
+    "Summary": "A musical revue featuring the hit songs of Leiber and Stoller."
+  },
+  {
+    "Year": "1996",
+    "Title": "Swinging on a Star",
+    "Summary": "A revue celebrating the music of Johnny Burke."
+  },
+  {
+    "Year": "1996",
+    "Title": "Rent",
+    "Summary": "Chronicles the lives of impoverished young artists struggling to survive in New York City's East Village under the shadow of AIDS."
+  },
+  {
+    "Year": "1996",
+    "Title": "Chronicle of a Death Foretold",
+    "Summary": "A musical adaptation of Gabriel Garc\u00eda M\u00e1rquez's novel, exploring a murder in a small Latin American town."
+  },
+  {
+    "Year": "1996",
+    "Title": "Bring in 'da Noise, Bring in 'da Funk",
+    "Summary": "A history of African-American experience from slavery to the present, told through tap dance and hip-hop rhythms."
+  },
+  {
+    "Year": "1997",
+    "Title": "Titanic",
+    "Summary": "Dramatizes the stories of the passengers and crew on the ill-fated maiden voyage of the RMS Titanic."
+  },
+  {
+    "Year": "1997",
+    "Title": "The Life",
+    "Summary": "Explores the gritty lives of prostitutes and hustlers in 1980s Times Square."
+  },
+  {
+    "Year": "1997",
+    "Title": "Steel Pier",
+    "Summary": "Centers on a 1930s dance marathon and the competitors' dreams and aspirations."
+  },
+  {
+    "Year": "1997",
+    "Title": "Juan Darien",
+    "Summary": "A boy transformed into a tiger seeks revenge on the villagers who persecuted him."
+  },
+  {
+    "Year": "1998",
+    "Title": "The Scarlet Pimpernel",
+    "Summary": "Romantic adventure revolving around a British aristocrat who rescues French nobles from the guillotine."
+  },
+  {
+    "Year": "1998",
+    "Title": "The Lion King",
+    "Summary": "An adaptation of the Disney animated film about a young lion destined to be king."
+  },
+  {
+    "Year": "1998",
+    "Title": "Side Show",
+    "Summary": "Follows conjoined twins Daisy and Violet Hilton and their rise to fame during the Great Depression."
+  },
+  {
+    "Year": "1998",
+    "Title": "Ragtime",
+    "Summary": "Explores the intersecting lives of African Americans, immigrants, and the upper class in early 20th century America."
+  },
+  {
+    "Year": "1999",
+    "Title": "The Civil War",
+    "Summary": "A musical rendering of the American Civil War, told through the perspectives of Union and Confederate soldiers and their families."
+  },
+  {
+    "Year": "1999",
+    "Title": "Parade",
+    "Summary": "Based on the true story of Leo Frank, a Jewish factory manager wrongly accused of murder in the early 20th century South."
+  },
+  {
+    "Year": "1999",
+    "Title": "It Ain't Nothin' But the Blues",
+    "Summary": "Chronicles the history and influence of blues music through performance."
+  },
+  {
+    "Year": "1999",
+    "Title": "Fosse",
+    "Summary": "A revue celebrating the choreography and legacy of Bob Fosse."
+  },
+  {
+    "Year": "2000",
+    "Title": "The Wild Party",
+    "Summary": "Depicts a tumultuous evening during a prohibition-era party that spirals out of control."
+  },
+  {
+    "Year": "2000",
+    "Title": "Swing!",
+    "Summary": "A musical celebration of the swing dance era, featuring high-energy dancing and classic songs."
+  },
+  {
+    "Year": "2000",
+    "Title": "James Joyce's The Dead",
+    "Summary": "Adapted from James Joyce's short story, capturing an intimate moment during an holiday season in early 20th century Dublin."
+  },
+  {
+    "Year": "2000",
+    "Title": "Contact",
+    "Summary": "Explores human connection and relationships through a series of dance vignettes."
+  },
+  {
+    "Year": "2001",
+    "Title": "The Producers",
+    "Summary": "A pair of Broadway producers scheme to get rich by creating a sure-fire flop."
+  },
+  {
+    "Year": "2001",
+    "Title": "The Full Monty",
+    "Summary": "A group of unemployed steelworkers form a male striptease act to make ends meet and regain their self-respect."
+  },
+  {
+    "Year": "2001",
+    "Title": "Jane Eyre",
+    "Summary": "Musical adaptation of the classic novel by Charlotte Bront\u00eb, centering on the orphaned Jane's journey to independence and love."
+  },
+  {
+    "Year": "2001",
+    "Title": "A Class Act",
+    "Summary": "A biographical musical about the life and work of songwriter Edward Kleban."
+  },
+  {
+    "Year": "2002",
+    "Title": "Urinetown",
+    "Summary": "A satirical comedy about a dystopian future where a severe water shortage requires citizens to pay to use public toilets."
+  },
+  {
+    "Year": "2002",
+    "Title": "Thoroughly Modern Millie",
+    "Summary": "A cheerful ode to the flapper era, following a young girl's quest for a modern life in 1920s New York."
+  },
+  {
+    "Year": "2002",
+    "Title": "Sweet Smell of Success",
+    "Summary": "Tells the dark tale of a powerful gossip columnist and the ambitious press agent willing to do anything for success."
+  },
+  {
+    "Year": "2002",
+    "Title": "Mamma Mia!",
+    "Summary": "A young bride-to-be invites three men to her wedding, believing one is her father, all set to the music of ABBA."
+  },
+  {
+    "Year": "2003",
+    "Title": "Movin' Out",
+    "Summary": "A dance musical set to the songs of Billy Joel, telling the story of lifelong friends and their experiences over two decades."
+  },
+  {
+    "Year": "2003",
+    "Title": "Hairspray",
+    "Summary": "A plucky teenager becomes a local celebrity by dancing on a TV show and fights against racial segregation."
+  },
+  {
+    "Year": "2003",
+    "Title": "Amour",
+    "Summary": "A whimsical romance about a shy clerk who gains the ability to walk through walls and uses his power to win the love of his life."
+  },
+  {
+    "Year": "2003",
+    "Title": "A Year with Frog and Toad",
+    "Summary": "Follows the seasonal adventures of two amphibian friends, Frog and Toad."
+  },
+  {
+    "Year": "2004",
+    "Title": "Wicked",
+    "Summary": "Explores the untold story of the witches of Oz before Dorothy's arrival."
+  },
+  {
+    "Year": "2004",
+    "Title": "The Boy from Oz",
+    "Summary": "A biographical musical about the life of Australian singer-songwriter Peter Allen."
+  },
+  {
+    "Year": "2004",
+    "Title": "Caroline, or Change",
+    "Summary": "Set in 1963 Louisiana, it follows an African-American maid working for a Jewish family while dealing with the shifting tides of racial and social change."
+  },
+  {
+    "Year": "2004",
+    "Title": "Avenue Q",
+    "Summary": "A provocative and humorous musical about young adults learning life's hard lessons in New York City, featuring puppet characters."
+  },
+  {
+    "Year": "2005",
+    "Title": "The Light in the Piazza",
+    "Summary": "A mother and daughter travel to Italy, where the daughter falls in love, complicating the former's secrets about her daughter's mental state."
+  },
+  {
+    "Year": "2005",
+    "Title": "The 25th Annual Putnam County Spelling Bee",
+    "Summary": "A quirky group of kids and their equally quirky adults guide participate in a spelling competition."
+  },
+  {
+    "Year": "2005",
+    "Title": "Spamalot",
+    "Summary": "A humorous retelling of the legend of King Arthur from the Monty Python comedy troupe."
+  },
+  {
+    "Year": "2005",
+    "Title": "Dirty Rotten Scoundrels",
+    "Summary": "Centers on two con men competing to swindle an heiress in the French Riviera."
+  },
+  {
+    "Year": "2006",
+    "Title": "The Wedding Singer",
+    "Summary": "After being left at the altar, a wedding singer attempts to rebuild his life and find new love."
+  },
+  {
+    "Year": "2006",
+    "Title": "The Drowsy Chaperone",
+    "Summary": "A musical-loving man transports the audience into the world of his favorite 1920s musical."
+  },
+  {
+    "Year": "2006",
+    "Title": "The Color Purple",
+    "Summary": "Follows the journey of Celie, an African American woman in the American South, who overcomes struggle and adversity to find her voice and identity."
+  },
+  {
+    "Year": "2006",
+    "Title": "Jersey Boys",
+    "Summary": "Tells the story of the rise, success, and eventual breakup of the 1960s rock 'n' roll group The Four Seasons."
+  },
+  {
+    "Year": "2007",
+    "Title": "Spring Awakening",
+    "Summary": "A rock-infused adaptation of Frank Wedekind's play about the sexual awakening of teenagers in 19th-century Germany."
+  },
+  {
+    "Year": "2007",
+    "Title": "Mary Poppins",
+    "Summary": "A magical nanny changes the lives of the Banks children in Edwardian London through adventure and song."
+  },
+  {
+    "Year": "2007",
+    "Title": "Grey Gardens",
+    "Summary": "The story of Big Edie and Little Edie Beale, eccentric and isolated relatives of Jacqueline Kennedy Onassis, as they live in a decaying mansion."
+  },
+  {
+    "Year": "2007",
+    "Title": "Curtains",
+    "Summary": "A murder mystery set during the production of a musical, where a detective (and theater fan) attempts to solve the case."
+  },
+  {
+    "Year": "2008",
+    "Title": "Xanadu",
+    "Summary": "A comedic love story about a Greek muse who descends to Earth to inspire a struggling artist during the 1980s roller-disco craze."
+  },
+  {
+    "Year": "2008",
+    "Title": "Passing Strange",
+    "Summary": "Follows a young black man from Los Angeles who travels to Europe in search of \"the real.\""
+  },
+  {
+    "Year": "2008",
+    "Title": "In the Heights",
+    "Summary": "Explores the hopes and dreams of the Latino community in New York's Washington Heights."
+  },
+  {
+    "Year": "2008",
+    "Title": "Cry-Baby",
+    "Summary": "A 1950s rebel with a heart of gold wins the affection of a good girl in this rock 'n' roll musical."
+  },
+  {
+    "Year": "2009",
+    "Title": "Shrek The Musical",
+    "Summary": "An ogre embarks on a journey to rescue a feisty princess, finding love and friendship along the way."
+  },
+  {
+    "Year": "2009",
+    "Title": "Rock of Ages",
+    "Summary": "A jukebox musical that celebrates classic rock music through the story of a small-town girl and a city boy."
+  },
+  {
+    "Year": "2009",
+    "Title": "Next to Normal",
+    "Summary": "A family struggles to cope with the mother's worsening bipolar disorder and its impact on their lives."
+  },
+  {
+    "Year": "2009",
+    "Title": "Billy Elliot the Musical",
+    "Summary": "A working-class boy discovers a passion for ballet that transforms his life amidst a mining strike in Northern England."
+  },
+  {
+    "Year": "2010",
+    "Title": "Million Dollar Quartet",
+    "Summary": "Dramatizes the impromptu jam session of rock 'n' roll legends Elvis Presley, Johnny Cash, Jerry Lee Lewis, and Carl Perkins."
+  },
+  {
+    "Year": "2010",
+    "Title": "Memphis",
+    "Summary": "Explores the birth of rock and roll in 1950s Tennessee, focusing on a white DJ who promotes black music on the radio."
+  },
+  {
+    "Year": "2010",
+    "Title": "Fela!",
+    "Summary": "A musical based on the life of Nigerian musician and activist Fela Kuti."
+  },
+  {
+    "Year": "2010",
+    "Title": "American Idiot",
+    "Summary": "Follows three young men and the choices they make post-9/11, set to the music of Green Day's album."
+  },
+  {
+    "Year": "2011",
+    "Title": "The Scottsboro Boys",
+    "Summary": "Dramatizes the true story of nine black teenagers falsely accused of rape in 1930s Alabama, delivered in the form of a minstrel show."
+  },
+  {
+    "Year": "2011",
+    "Title": "The Book of Mormon",
+    "Summary": "Follows two naive Mormon missionaries sent to Uganda, where they encounter the harsh realities of life."
+  },
+  {
+    "Year": "2011",
+    "Title": "Sister Act",
+    "Summary": "A lounge singer witnesses a crime and hides in a convent, bringing music and life to the nuns."
+  },
+  {
+    "Year": "2011",
+    "Title": "Catch Me If You Can",
+    "Summary": "Follows the true story of Frank Abagnale Jr., a teenage con artist who evades the FBI."
+  },
+  {
+    "Year": "2012",
+    "Title": "Once",
+    "Summary": "A heartwarming musical about an Irish musician and a Czech immigrant brought together by their shared love of music."
+  },
+  {
+    "Year": "2012",
+    "Title": "Nice Work If You Can Get It",
+    "Summary": "A bootlegger and a wealthy playboy find love and misadventure in the Prohibition era, set to the music of George Gershwin."
+  },
+  {
+    "Year": "2012",
+    "Title": "Newsies",
+    "Summary": "Based on the true story of the 1899 newsboys strike in New York City."
+  },
+  {
+    "Year": "2012",
+    "Title": "Leap of Faith",
+    "Summary": "A con man posing as a preacher finds redemption in a small town."
+  },
+  {
+    "Year": "2013",
+    "Title": "Matilda the Musical",
+    "Summary": "An extraordinary young girl with special powers overcomes a harsh upbringing and an oppressive school."
+  },
+  {
+    "Year": "2013",
+    "Title": "Kinky Boots",
+    "Summary": "A struggling shoe factory owner and a drag queen team up to save the business with stylish boots."
+  },
+  {
+    "Year": "2013",
+    "Title": "Bring It On",
+    "Summary": "A high school cheerleader is forced to transfer to a new school, where she faces challenges and forms new friendships."
+  },
+  {
+    "Year": "2013",
+    "Title": "A Christmas Story",
+    "Summary": "A musical adaptation of the classic holiday movie about a young boy's quest for a Red Ryder BB gun."
+  },
+  {
+    "Year": "2014",
+    "Title": "Beautiful",
+    "Summary": "Chronicles the life and career of singer-songwriter Carole King, from her early days to fame."
+  },
+  {
+    "Year": "2014",
+    "Title": "Aladdin",
+    "Summary": "A young man embarks on magical adventures with the help of a genie to win the heart of a princess."
+  },
+  {
+    "Year": "2014",
+    "Title": "After Midnight",
+    "Summary": "A musical revue celebrating Duke Ellington's years at the Cotton Club with a blend of music and dance."
+  },
+  {
+    "Year": "2014",
+    "Title": "A Gentleman's Guide to Love and Murder",
+    "Summary": "A comedic romp about an heir who eliminates eight relatives standing between him and his inheritance."
+  },
+  {
+    "Year": "2015",
+    "Title": "The Visit",
+    "Summary": "A wealthy woman returns to her impoverished hometown with a dark offer of vengeance."
+  },
+  {
+    "Year": "2015",
+    "Title": "Something Rotten!",
+    "Summary": "A comedy about two brothers in the Renaissance who try to write the world's first musical amidst competition with Shakespeare."
+  },
+  {
+    "Year": "2015",
+    "Title": "Fun Home",
+    "Summary": "A coming-of-age story about a young woman discovering her sexuality and grappling with family secrets."
+  },
+  {
+    "Year": "2015",
+    "Title": "An American in Paris",
+    "Summary": "An American soldier and a French girl fall in love amidst the joy and post-war challenges of Paris."
+  },
+  {
+    "Year": "2016",
+    "Title": "Waitress",
+    "Summary": "A small-town waitress and expert pie maker dreams of escaping her unhappy marriage through a baking contest."
+  },
+  {
+    "Year": "2016",
+    "Title": "Shuffle Along",
+    "Summary": "Revisits the making of the groundbreaking 1921 African-American musical \"Shuffle Along.\""
+  },
+  {
+    "Year": "2016",
+    "Title": "School of Rock",
+    "Summary": "A failed rock musician becomes a substitute teacher and forms a band with his students."
+  },
+  {
+    "Year": "2016",
+    "Title": "Hamilton",
+    "Summary": "The life of Alexander Hamilton is told through a groundbreaking fusion of hip-hop, R&B, and traditional musical theater."
+  },
+  {
+    "Year": "2016",
+    "Title": "Bright Star",
+    "Summary": "A tale of love and redemption set in the Blue Ridge Mountains, told through the music of Steve Martin and Edie Brickell."
+  },
+  {
+    "Year": "2017",
+    "Title": "Natasha, Pierre & The Great Comet of 1812",
+    "Summary": "A vibrant retelling of a section from Tolstoy's \"War and Peace,\" focusing on Natasha's affair and Pierre's existential crisis."
+  },
+  {
+    "Year": "2017",
+    "Title": "Groundhog Day",
+    "Summary": "A cynical weatherman relives the same day repeatedly, learning life lessons along the way."
+  },
+  {
+    "Year": "2017",
+    "Title": "Dear Evan Hansen",
+    "Summary": "A high school student with social anxiety fabricates a relationship with a deceased peer to find a sense of belonging."
+  },
+  {
+    "Year": "2017",
+    "Title": "Come from Away",
+    "Summary": "True stories of passengers stranded in Newfoundland during the aftermath of 9/11 and the town that welcomed them."
+  },
+  {
+    "Year": "2018",
+    "Title": "The Band's Visit",
+    "Summary": "An Egyptian police band accidentally arrives in a small Israeli town, forging unexpected connections."
+  },
+  {
+    "Year": "2018",
+    "Title": "SpongeBob SquarePants",
+    "Summary": "The beloved cartoon characters must save Bikini Bottom from an impending disaster."
+  },
+  {
+    "Year": "2018",
+    "Title": "Mean Girls",
+    "Summary": "A teenage girl navigates the treacherous world of high school social cliques after moving from Africa to the US."
+  },
+  {
+    "Year": "2018",
+    "Title": "Frozen",
+    "Summary": "The story of two royal sisters grappling with the elder's magical ice powers and their transformed relationship."
+  },
+  {
+    "Year": "2019",
+    "Title": "Tootsie",
+    "Summary": "An unsuccessful actor disguises himself as a woman to secure a role and finds unexpected success and complications."
+  },
+  {
+    "Year": "2019",
+    "Title": "The Prom",
+    "Summary": "Broadway stars rally to support a high school girl banned from bringing her girlfriend to prom in a small Indiana town."
+  },
+  {
+    "Year": "2019",
+    "Title": "Hadestown",
+    "Summary": "A modern retelling of the Orpheus and Eurydice myth set in a post-apocalyptic underworld."
+  },
+  {
+    "Year": "2019",
+    "Title": "Beetlejuice",
+    "Summary": "A mischievous ghost helps a young girl and her parents haunt their new home."
+  },
+  {
+    "Year": "2019",
+    "Title": "Ain't Too Proud",
+    "Summary": "The story of The Temptations, from their humble beginnings to their rise as Motown legends."
+  },
+  {
+    "Year": "2020/2021",
+    "Title": "Tina",
+    "Summary": "Follows the turbulent life and celebrated career of rock 'n' roll icon Tina Turner."
+  },
+  {
+    "Year": "2020/2021",
+    "Title": "Moulin Rouge!",
+    "Summary": "A lavish, dramatic tale of love and illusion set in the famed Parisian nightclub."
+  },
+  {
+    "Year": "2020/2021",
+    "Title": "Jagged Little Pill",
+    "Summary": "A jukebox musical using Alanis Morissette's songs to explore contemporary family dynamics and social issues."
+  },
+  {
+    "Year": "2022",
+    "Title": "Six",
+    "Summary": "The six wives of Henry VIII reclaim their stories in this modern pop concert musical."
+  },
+  {
+    "Year": "2022",
+    "Title": "Paradise Square",
+    "Summary": "Set in 19th-century New York City, it explores the story of Irish and Black Americans coexisting in the same neighborhood."
+  },
+  {
+    "Year": "2022",
+    "Title": "Mr. Saturday Night",
+    "Summary": "Follows a comedian who reflects on his career and attempts a comeback."
+  },
+  {
+    "Year": "2022",
+    "Title": "MJ",
+    "Summary": "Chronicles the creative journey and career of pop icon Michael Jackson."
+  },
+  {
+    "Year": "2022",
+    "Title": "Girl from the North Country",
+    "Summary": "Uses Bob Dylan\u2019s music to tell intertwined stories of hard-luck residents in a 1930s Minnesota boarding house."
+  },
+  {
+    "Year": "2022",
+    "Title": "A Strange Loop",
+    "Summary": "A self-referential musical about a black gay man writing a musical about a black gay man."
+  },
+  {
+    "Year": "2023",
+    "Title": "Some Like It Hot",
+    "Summary": "A cross-dressing comedy based on the classic film about musicians fleeing from the mob."
+  },
+  {
+    "Year": "2023",
+    "Title": "Shucked",
+    "Summary": "A new comedic musical celebrating the world of corn and small-town life."
+  },
+  {
+    "Year": "2023",
+    "Title": "New York, New York",
+    "Summary": "Inspired by the iconic film, it follows intertwined stories of dreamers striving for success in post-World War II New York."
+  },
+  {
+    "Year": "2023",
+    "Title": "Kimberly Akimbo",
+    "Summary": "A teenager with a rare condition causing her to age rapidly navigates family chaos and schemes."
+  },
+  {
+    "Year": "2023",
+    "Title": "& Juliet",
+    "Summary": "An irreverent, feminist twist on the story of Juliet from Shakespeare's \"Romeo and Juliet.\""
+  },
+  {
+    "Year": "2024",
+    "Title": "Water for Elephants",
+    "Summary": "Based on the bestseller, it narrates a love story set in a depression-era circus."
+  },
+  {
+    "Year": "2024",
+    "Title": "The Outsiders",
+    "Summary": "Musical adaptation of S.E. Hinton\u2019s novel about teenage gang rivalry and friendships in the 1960s."
+  },
+  {
+    "Year": "2024",
+    "Title": "Suffs",
+    "Summary": "Explores the suffragist movement and the fight for American women's right to vote in the early 20th century."
+  },
+  {
+    "Year": "2024",
+    "Title": "Illinoise",
+    "Summary": "A new musical inspired by the music of folk artist Sufjan Stevens, specifically his album about the state of Illinois."
+  },
+  {
+    "Year": "2024",
+    "Title": "Hell's Kitchen",
+    "Summary": "A coming-of-age story set in Manhattan\u2019s raw and often unforgiving working-class neighborhood."
+  }
+]
