@@ -19,7 +19,7 @@
     <header>
         <div class="heading">
         <h1>About the Game</h1>
-        <a class="icon" onclick="hamburgerMenu()"><img src="images/right.png"></a>
+        <a class="icon" onclick="hamburgerMenu()"><img src="images/hamburger_menu.png" alt=""></a>
         <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by HideMaru - Flaticon</a> -->
         </div>
         <nav>
@@ -30,12 +30,14 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="about_main">
         <h2>The Developer</h2>
         <br>
         <div class="about">
-        <h3 id="about1">Ilana Mermelstein</h3>
-        <img id="about2" src="images/ilana_image.jpg" alt="A girl in a blue dress smiles and stands against a pillar." width="50%">
+        <div id="name_photo">
+        <h3>Ilana Mermelstein</h3>
+        <img src="images/ilana_image.jpg" alt="A girl in a blue dress smiles and stands against a pillar." width="50%">
+        </div>
         <div id="about3">
         <p>Ilana is a first-year MSI student at the University of Michigan concentrating in UX Research. In her coursework, she has discovered an interest in programming, which is why she decided to create a game for her final web design project.</p><br>
         <p>Ilana is not only a student, UX Researcher, and novice programmer, but a proud theater kid. She acted, sang, and danced in musicals from age 7 to age 14. Although she no longer participates as a cast member, she still loves seeing musicals at the University of Michigan, listening to Broadway Original Cast Recordings, and stays up to date on the news in the theater world</p><br>
@@ -51,11 +53,17 @@
         <h2 id="about5">The Program</h2>
         <div id="about6">
         <p>MusicalGuessr was developed as a final project for SI 539 - Web Design: Responsiveness and Accessibility. The site was coded in HTML5, CSS, and JavaScript.</p>
-        <p>The data including each Broadway musical nominated for Best Musical at the Tony Awards was retrieved from <a href="https://en.wikipedia.org/wiki/Tony_Award_for_Best_Musical">Wikipedia</a>, and the one-sentence summaries were generated with <a href="https://umgpt.umich.edu/">UM-GPT</a>.</p>
-        <p>The <a href="https://github.com/ilanamermelstein/539-final">GitHub repository</a> for the game is publicly available online.</p>
+        <p>The data including each Broadway musical nominated for Best Musical at the Tony Awards was retrieved from <a class="aboutLink" href="https://en.wikipedia.org/wiki/Tony_Award_for_Best_Musical">Wikipedia</a>, and the one-sentence summaries were generated with <a class="aboutLink" href="https://umgpt.umich.edu/">UM-GPT</a>.</p>
+        <p>The <a class="aboutLink" href="https://github.com/ilanamermelstein/539-final">GitHub repository</a> for the game is publicly available online.</p>
         </div>
         </div>
     </main>
+    <footer>
+        <p>Developed by Ilana Mermelstein</p>
+        <p>University of Michigan SI 539 Final Project</p>
+        <a href="https://www.linkedin.com/in/ilana-mermelstein/"><img src="images/linkedin-logo.png" alt="LinkedIn Logo"></a>
+        <a href="mailto:imerm@umich.edu"><img src="images/email-icon.png" alt="Envelope Icon"></a>
+    </footer>
 <script src="js/finalproj.js"></script>
 </body>
 </html>

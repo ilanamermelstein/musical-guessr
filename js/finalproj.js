@@ -17,7 +17,6 @@ let title;
 let year;
 let summary;
 let roundIndex;
-let finalScore;
 
 
 fetch('./musicals.json')
@@ -31,9 +30,8 @@ fetch('./musicals.json')
     console.log("Error loading data");
     });
 
- // used https://stackoverflow.com/questions/4328500/how-can-i-strip-all-punctuation-from-a-string-in-javascript-using-regex for code to strip input
-
 function stripTitle(title){
+     // used https://stackoverflow.com/questions/4328500/how-can-i-strip-all-punctuation-from-a-string-in-javascript-using-regex for code to strip input
     console.log("Stripping title");
     let titleOne = title.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
     console.log("Part one complete");
@@ -92,8 +90,13 @@ document.querySelector("#guessButton").addEventListener("click", function() {
         if (stripTitle(title) === stripTitle(document.getElementById("guess").value)){
             currentScore += 3;
             document.getElementById("correct").innerHTML = "That's correct! The musical is " + title + "!";
-            document.querySelector("#nextRound").style.display = "block";
+            document.getElementById("correct").style.backgroundColor = "#4CBB17";
             document.getElementById("guessForm").reset();
+            if (currentRound != 10) {
+                document.querySelector("#nextRound").style.display = "block";
+            } else {
+                document.querySelector("#getFinalScore").style.display = "block"
+            }
         } else {
             document.getElementById("correct").innerHTML = "Not quite...try again!";
             guessesRemaining -= 1;
@@ -104,8 +107,13 @@ document.querySelector("#guessButton").addEventListener("click", function() {
         if (stripTitle(title) === stripTitle(document.getElementById("guess").value)){
             currentScore += 2;
             document.getElementById("correct").innerHTML = "That's correct! The musical is " + title + "!";
-            document.querySelector("#nextRound").style.display = "block";
+            document.getElementById("correct").style.backgroundColor = "#4CBB17";
             document.getElementById("guessForm").reset();
+            if (currentRound != 10) {
+                document.querySelector("#nextRound").style.display = "block";
+            } else {
+                document.querySelector("#getFinalScore").style.display = "block"
+            }
         } else {
             document.getElementById("correct").innerHTML = "Not quite...try one more time!";
             guessesRemaining -=1;
@@ -116,14 +124,23 @@ document.querySelector("#guessButton").addEventListener("click", function() {
         if (stripTitle(title) === stripTitle(document.getElementById("guess").value)){
             currentScore += 1;
             document.getElementById("correct").innerHTML = "That's correct! The musical is " + title + "!";
-            document.querySelector("#nextRound").style.display = "block";
+            document.getElementById("correct").style.backgroundColor = "#4CBB17";
             document.getElementById("guessForm").reset();
+            if (currentRound != 10) {
+                document.querySelector("#nextRound").style.display = "block";
+            } else {
+                document.querySelector("#getFinalScore").style.display = "block"
+            }
         } else {
             guessesRemaining -=1;
             document.getElementById("remainingGuesses").innerHTML = guessesRemaining;
             document.getElementById("correct").innerHTML = "Sorry, you didn't guess this one correctly. The musical was " + title + ".";
-            document.querySelector("#nextRound").style.display = "block";
             document.getElementById("guessForm").reset();
+            if (currentRound != 10) {
+                document.querySelector("#nextRound").style.display = "block";
+            } else {
+                document.querySelector("#getFinalScore").style.display = "block"
+            }
         }
     }
 });
@@ -131,21 +148,25 @@ document.querySelector("#guessButton").addEventListener("click", function() {
 document.querySelector("#nextRound").addEventListener("click", function() {
     document.querySelector("#nextRound").style.display = "none";
     document.getElementById("correct").innerHTML = "";
+    document.getElementById("correct").style.backgroundColor = "#F4F4F4"
     currentRound += 1;
     if (currentRound <= 10) {
         newRound();
     } else {
-        finalScore = currentScore;
-        console.log(finalScore);
+        sessionStorage.setItem("finalScore", currentScore);
         document.querySelector("#getFinalScore").style.display = "block";
     }
 });
+
 document.querySelector("#getFinalScore").addEventListener("click", function(){
+    location.href = "finalscore.html";
+    finalScore = sessionStorage.getItem("finalScore");
+    console.log(finalScore);
     document.getElementById("finalScore").innerHTML = finalScore;
     if (finalScore === 30) {
         document.querySelector("#finalMessage").innerHTML = "Wow, you got a perfect score! You're a Broadway expert!";
     } else if (23 <= finalScore < 30) {
-        document.querySelector("#finalMessage").innerHTML = "Nice work! Not perfect, but you know your stuff! You're definitely a Broadway fan!";
+        document.querySelector("#finalMessage").innerHTML = "Nice work! You're clearly a Broadway fan!";
     } else if (16 <= finalScore < 23) {
         document.querySelector("#finalMessage").innerHTML = "Not bad! You may want to brush up on your Broadway knowledge, but you're in a good spot!";
     } else if (9 <= finalScore < 16) {

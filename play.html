@@ -19,7 +19,7 @@
     <header>
         <div class="heading">
         <h1>Play MusicalGuessr</h1>
-        <a class="icon" onclick="hamburgerMenu()"><img src="images/right.png"></a>
+        <a class="icon" onclick="hamburgerMenu()"><img src="images/hamburger_menu.png" alt = ""></a>
             <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by HideMaru - Flaticon</a> -->
         </div>
         <nav>
@@ -30,34 +30,42 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="play_main" class="playPage">
         <h2>Round <span id="round"></span> of 10</h2>
         <h2>Score: <span id="currentScore"></span></h2>
         <br>
         <div id="startGame">
-        <button class="playPageButton">Start Game</button>
+        <button class="playPageButton" tabindex="0">Start Game</button>
         </div>
-        <br>
         <div id="gamePlay">
-        <h3>Guess the musical!</h3>
+        <h2>Guess the musical!</h2>
         <br>
-        <p><b>Summary:</b> <span id="musicalSummary"></span></p>
-        <p><b>Year at the Tony Awards:</b> <span id="yearOfNom"></span></p>
+        <h3>Summary:</h3>
+        <p><span id="musicalSummary"></span></p>
+        <br>
+        <h3>Year at the Tony Awards:</h3>
+        <p><span id="yearOfNom"></span></p>
         <br>
         <form id="guessForm">
             <label for="guess"><b>The Musical Is:</b></label>
             <input type="text" id="guess" name="guess" placeholder="Type Your Guess Here">
         </form>
         <br>
-        <button type="submit" class="playPageButton" id="guessButton">Guess</button>
+        <button type="submit" class="playPageButton" id="guessButton" tabindex="0">Guess</button>
+        <p>Remaining Guesses for This Round: <span id="remainingGuesses"></span></p>
         <br>
         <p id="correct"></p>
-        <br>
-        <p>Remaining Guesses for This Round: <span id="remainingGuesses"></span></p>
         </div>
-        <button class="playPageButton" id="nextRound">Go to Next Round</button>
-        <button class="playPageButton" id="getFinalScore"><a href=finalscore.html>Go to Final Score</a></button>
+        <br>
+        <button class="playPageButton" id="nextRound" tabindex="0">Go to Next Round</button>
+        <button class="playPageButton" id="getFinalScore" tabindex="0">Go to Final Score</button>
     </main>
+    <footer>
+        <p>Developed by Ilana Mermelstein</p>
+        <p>University of Michigan SI 539 Final Project</p>
+        <a href="https://www.linkedin.com/in/ilana-mermelstein/"><img src="images/linkedin-logo.png" alt="LinkedIn Logo"></a>
+        <a href="mailto:imerm@umich.edu"><img src="images/email-icon.png" alt="Envelope Icon"></a>
+    </footer>
 <script src="js/finalproj.js"></script>
 </body>
 </html>

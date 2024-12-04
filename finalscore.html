@@ -19,7 +19,7 @@
         <header>
             <div class="heading">
             <h1>Final Score</h1>
-            <a class="icon" onclick="hamburgerMenu()"><img src="images/right.png"></a>
+            <a class="icon" onclick="hamburgerMenu()"><img src="images/hamburger_menu.png" alt=""></a>
             <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by HideMaru - Flaticon</a> -->
             </div>
             <nav>
@@ -30,13 +30,24 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main id="finalscore_main">
             <h2>Final Score: <span id="finalScore"></span></h2>
             <p><span id="finalMessage"></span></p>
             <br>
             <br>
-            <button class="playButton" id="playAgain"><a href=play.html>Play Again!</a></button>
+            <button class="playButton" id="playAgain" onclick="toPlay()">Play Again!</button>
         </main>
+        <footer>
+            <p>Developed by Ilana Mermelstein</p>
+            <p>University of Michigan SI 539 Final Project</p>
+            <a href="https://www.linkedin.com/in/ilana-mermelstein/"><img src="images/linkedin-logo.png" alt="LinkedIn Logo"></a>
+            <a href="mailto:imerm@umich.edu"><img src="images/email-icon.png" alt="Envelope Icon"></a>
+        </footer>
     <script src="js/finalproj.js"></script>
+    <script>
+        function toPlay(){
+            location.href = "play.html";
+        }
+    </script>
     </body>
     </html>

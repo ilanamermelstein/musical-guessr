@@ -19,7 +19,7 @@
     <header>
         <div class="heading">
         <h1>MusicalGuessr</h1>
-        <img src="images/right.png" class="icon" onclick="hamburgerMenu()">
+        <img src="images/hamburger_menu.png" class="icon" alt = "" onclick="hamburgerMenu()">
         <!-- a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by HideMaru - Flaticon -->
         </div>
         <nav>
@@ -30,8 +30,8 @@
             </ul>
         </nav>
     </header>
-    <main class="homepage">
-        <h2>Guess the Broadway musical based on a one-sentence summary and its year at the Tony Awards!</h2>
+    <main id="index_main" class="homepage">
+        <h2 id="slogan">Guess the Broadway musical based on a one-sentence summary and its year at the Tony Awards!</h2>
         <p>Think you know your Broadway musicals? Put your knowledge to the test!</p>
         <p>You'll be tasked with writing the full name of 10 Tony-nominated Broadway musicals based on:</p>
         <ul>
@@ -40,8 +40,19 @@
         </ul>
         <br>
         <br>
-        <button class="playButton" id="playHome" tabindex="0"><a href=play.html>Let's Play!</a></button>
+        <button class="playButton" id="playHome" tabindex="0" onclick="toPlay()">Let's Play!</button>
     </main>
+    <footer>
+        <p>Developed by Ilana Mermelstein</p>
+        <p>University of Michigan SI 539 Final Project</p>
+        <a href="https://www.linkedin.com/in/ilana-mermelstein/"><img src="images/linkedin-logo.png" alt="LinkedIn Logo"></a>
+        <a href="mailto:imerm@umich.edu"><img src="images/email-icon.png" alt="Envelope Icon"></a>
+    </footer>
 <script src="js/finalproj.js"></script>
+<script>
+    function toPlay(){
+        location.href = "play.html";
+    }
+</script>
 </body>
 </html>
