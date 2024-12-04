@@ -26,7 +26,10 @@ fetch('../musicals.json')
     musicalsData = musicals;
     console.log(musicalsData);
   })
-  .catch(error => console.error('Error loading JSON:', error));
+  .catch(error => {
+    console.error('Error loading JSON:', error);
+    console.log("Error loading data");
+    });
 
  // used https://stackoverflow.com/questions/4328500/how-can-i-strip-all-punctuation-from-a-string-in-javascript-using-regex for code to strip input
 
