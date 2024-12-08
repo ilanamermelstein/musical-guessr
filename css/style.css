@@ -226,17 +226,23 @@ nav li.active{
 #getFinalScore{
     display: none
 }
-.playPage{
+#playPage{
     text-align: center;
 }
-.playPage #guess{
+#playPage #guess{
     text-align: left;
 }
-.playPage h3{
+#playPage h3{
     font-weight: bolder;
 }
-.playPage p{
+#playPage p{
     font-style: italic;
+}
+#finalscore_main{
+    display: none;
+}
+#finalscore_main p{
+    text-align: center;
 }
 /* footer */
 footer{

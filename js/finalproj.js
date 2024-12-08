@@ -100,7 +100,8 @@ document.querySelector("#guessButton").addEventListener("click", function() {
             if (currentRound != 10) {
                 document.querySelector("#nextRound").style.display = "block";
             } else {
-                document.querySelector("#getFinalScore").style.display = "block"
+                document.querySelector("#getFinalScore").style.display = "block";
+                console.log(currentScore);
             }
         } else {
             document.getElementById("correct").innerHTML = "Not quite...try again!";
@@ -118,7 +119,8 @@ document.querySelector("#guessButton").addEventListener("click", function() {
             if (currentRound != 10) {
                 document.querySelector("#nextRound").style.display = "block";
             } else {
-                document.querySelector("#getFinalScore").style.display = "block"
+                document.querySelector("#getFinalScore").style.display = "block";
+                console.log(currentScore);
             }
         } else {
             document.getElementById("correct").innerHTML = "Not quite...try one more time!";
@@ -136,7 +138,8 @@ document.querySelector("#guessButton").addEventListener("click", function() {
             if (currentRound != 10) {
                 document.querySelector("#nextRound").style.display = "block";
             } else {
-                document.querySelector("#getFinalScore").style.display = "block"
+                document.querySelector("#getFinalScore").style.display = "block";
+                console.log(currentScore);
             }
         } else {
             guessesRemaining -=1;
@@ -147,7 +150,8 @@ document.querySelector("#guessButton").addEventListener("click", function() {
             if (currentRound != 10) {
                 document.querySelector("#nextRound").style.display = "block";
             } else {
-                document.querySelector("#getFinalScore").style.display = "block"
+                document.querySelector("#getFinalScore").style.display = "block";
+                console.log(currentScore);
             }
         }
     }
@@ -164,29 +168,20 @@ document.querySelector("#nextRound").addEventListener("click", function() {
 }});
 
 document.querySelector("#getFinalScore").addEventListener("click", function(){
-    console.log(currentScore)
-    localStorage.setItem("totalScore", JSON.stringify(currentScore));
-    console.log(localStorage.getItem("totalScore"))
-    console.log(localStorage)
-    console.log("Final score saved");
-    goToFinalPage();
-})
-
-function goToFinalPage(){
-    location.href = "finalscore.html";
-    finalScorePage = JSON.parse(localStorage.getItem("totalScore"));
-    console.log(finalScorePage);
-    document.querySelector("#finalScore").innerHTML = finalScorePage;
-    if (finalScorePage === 30) {
+    document.querySelector("#playh1").innerHTML = "FINAL SCORE";
+    document.getElementById("playPage").style.display = "none";
+    document.getElementById("finalscore_main").style.display = "block";
+    document.querySelector("#finalScore").innerHTML = JSON.stringify(currentScore);
+    if (currentScore === 30) {
         document.querySelector("#finalMessage").innerHTML = "Wow, you got a perfect score! You're a Broadway expert!";
-    } else if (23 <= finalScorePage < 30) {
+    } else if (23 <= currentScore < 30) {
         document.querySelector("#finalMessage").innerHTML = "Nice work! You're clearly a Broadway fan!";
-    } else if (16 <= finalScorePage < 23) {
+    } else if (16 <= currentScore < 23) {
         document.querySelector("#finalMessage").innerHTML = "Not bad! You may want to brush up on your Broadway knowledge, but you're in a good spot!";
-    } else if (9 <= finalScorePage < 16) {
+    } else if (9 <= currentScore < 16) {
         document.querySelector("#finalMessage").innerHTML = "You have some studying to do...";
     } else {
         document.querySelector("#finalMessage").innerHTML = "Do you even like Broadway? Why are you playing this game?";
     }
-    localStorage.clear();
-};
+    console.log("Final Score Page Loaded")
+})

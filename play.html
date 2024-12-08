@@ -18,7 +18,7 @@
         </div>
     <header>
         <div class="heading">
-        <h1>PLAY MUSICALGUESSR</h1>
+        <h1 id="playh1">PLAY MUSICALGUESSR</h1>
         <a class="icon" onclick="hamburgerMenu()"><img src="images/hamburger_menu.png" alt = ""></a>
             <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by HideMaru - Flaticon</a> -->
         </div>
@@ -30,7 +30,8 @@
             </ul>
         </nav>
     </header>
-    <main id="play_main" class="playPage">
+    <main id="play_main">
+    <div id="playPage">
         <h2>Round <span id="round"></span> of 10</h2>
         <h2>Score: <span id="currentScore"></span></h2>
         <br>
@@ -59,6 +60,14 @@
         <br>
         <button class="playPageButton" id="nextRound" tabindex="0">Go to Next Round</button>
         <button class="playPageButton" id="getFinalScore" tabindex="0">Go to Final Score</button>
+    </div>
+    <div id="finalscore_main">
+        <h2>Final Score: <span id="finalScore"></span></h2>
+            <p><span id="finalMessage"></span></p>
+            <br>
+            <br>
+            <button class="playButton" id="playAgain" onclick="toPlay()">Play Again!</button>
+    </div>
     </main>
     <footer>
         <p>Developed by Ilana Mermelstein</p>
@@ -67,5 +76,10 @@
         <a href="mailto:imerm@umich.edu"><img src="images/email-icon.png" alt="Envelope Icon"></a>
     </footer>
 <script src="js/finalproj.js"></script>
+<script>
+    function toPlay(){
+        location.href = "play.html";
+    }
+</script>
 </body>
 </html>
