@@ -161,16 +161,16 @@ document.querySelector("#getFinalScore").addEventListener("click", function(){
     console.log(currentScore)
     finalScore = JSON.stringify(currentScore);
     console.log(finalScore);
-    sessionStorage.setItem("totalScore", finalScore);
-    console.log(sessionStorage.getItem("totalScore"))
-    console.log(sessionStorage)
+    localStorage.setItem("totalScore", finalScore);
+    console.log(localStorage.getItem("totalScore"))
+    console.log(localStorage)
     console.log("Final score saved");
     goToFinalPage();
 })
 
 function goToFinalPage(){
     location.href = "finalscore.html";
-    finalScorePage = JSON.parse(sessionStorage.getItem("totalScore"));
+    finalScorePage = JSON.parse(localStorage.getItem("totalScore"));
     console.log(finalScorePage);
     document.querySelector("#finalScore").innerHTML = finalScorePage;
     if (finalScorePage === 30) {
