@@ -19,6 +19,7 @@ let summary;
 let roundIndex;
 let finalScore
 let finalScorePage;
+console.log(localStorage)
 
 
 fetch('./musicals.json')
