@@ -96,6 +96,7 @@ document.querySelector("#guessButton").addEventListener("click", function() {
             document.getElementById("correct").innerHTML = "That's correct! The musical is " + title + "!";
             document.getElementById("correct").style.backgroundColor = "#4CBB17";
             document.getElementById("guessForm").reset();
+            document.getElementById("guessButton").style.display = "none";
             if (currentRound != 10) {
                 document.querySelector("#nextRound").style.display = "block";
             } else {
@@ -113,6 +114,7 @@ document.querySelector("#guessButton").addEventListener("click", function() {
             document.getElementById("correct").innerHTML = "That's correct! The musical is " + title + "!";
             document.getElementById("correct").style.backgroundColor = "#4CBB17";
             document.getElementById("guessForm").reset();
+            document.getElementById("guessButton").style.display = "none";
             if (currentRound != 10) {
                 document.querySelector("#nextRound").style.display = "block";
             } else {
@@ -130,6 +132,7 @@ document.querySelector("#guessButton").addEventListener("click", function() {
             document.getElementById("correct").innerHTML = "That's correct! The musical is " + title + "!";
             document.getElementById("correct").style.backgroundColor = "#4CBB17";
             document.getElementById("guessForm").reset();
+            document.getElementById("guessButton").style.display = "none";
             if (currentRound != 10) {
                 document.querySelector("#nextRound").style.display = "block";
             } else {
@@ -140,6 +143,7 @@ document.querySelector("#guessButton").addEventListener("click", function() {
             document.getElementById("remainingGuesses").innerHTML = guessesRemaining;
             document.getElementById("correct").innerHTML = "Sorry, you didn't guess this one correctly. The musical was " + title + ".";
             document.getElementById("guessForm").reset();
+            document.getElementById("guessButton").style.display = "none";
             if (currentRound != 10) {
                 document.querySelector("#nextRound").style.display = "block";
             } else {
@@ -151,6 +155,7 @@ document.querySelector("#guessButton").addEventListener("click", function() {
 
 document.querySelector("#nextRound").addEventListener("click", function() {
     document.querySelector("#nextRound").style.display = "none";
+    document.getElementById("guessButton").style.display = "block"
     document.getElementById("correct").innerHTML = "";
     document.getElementById("correct").style.backgroundColor = "#F4F4F4"
     currentRound += 1;
@@ -160,9 +165,7 @@ document.querySelector("#nextRound").addEventListener("click", function() {
 
 document.querySelector("#getFinalScore").addEventListener("click", function(){
     console.log(currentScore)
-    finalScore = JSON.stringify(currentScore);
-    console.log(finalScore);
-    localStorage.setItem("totalScore", finalScore);
+    localStorage.setItem("totalScore", JSON.stringify(currentScore));
     console.log(localStorage.getItem("totalScore"))
     console.log(localStorage)
     console.log("Final score saved");
