@@ -17,6 +17,8 @@ let title;
 let year;
 let summary;
 let roundIndex;
+let finalScore
+let finalScorePage;
 
 
 fetch('./musicals.json')
@@ -45,12 +47,13 @@ function stripTitle(title){
 function generateNumbers(){
     console.log("Starting random number generation");
     let randomNumbers = [];
-    console.log("Set initiated");
     while (randomNumbers.length < 10) {
         newNumber = Math.floor(Math.random() * musicalsData.length);
-        if (newNumber in randomNumbers === false) {
-            randomNumbers.push(newNumber);}
-        };
+        if (randomNumbers.includes(newNumber) === false) {
+            randomNumbers.push(newNumber);
+        } else {
+            continue;
+        }};
     console.log(randomNumbers)
     return randomNumbers
 };
@@ -152,26 +155,34 @@ document.querySelector("#nextRound").addEventListener("click", function() {
     currentRound += 1;
     if (currentRound <= 10) {
         newRound();
-    } else {
-        sessionStorage.setItem("finalScore", currentScore);
-        document.querySelector("#getFinalScore").style.display = "block";
-    }
-});
+}});
 
 document.querySelector("#getFinalScore").addEventListener("click", function(){
-    location.href = "finalscore.html";
-    finalScore = sessionStorage.getItem("finalScore");
+    console.log(currentScore)
+    finalScore = JSON.stringify(currentScore);
     console.log(finalScore);
-    document.getElementById("finalScore").innerHTML = finalScore;
-    if (finalScore === 30) {
+    sessionStorage.setItem("totalScore", finalScore);
+    console.log(sessionStorage.getItem("totalScore"))
+    console.log(sessionStorage)
+    console.log("Final score saved");
+    goToFinalPage();
+})
+
+function goToFinalPage(){
+    location.href = "finalscore.html";
+    finalScorePage = JSON.parse(sessionStorage.getItem("totalScore"));
+    console.log(finalScorePage);
+    document.querySelector("#finalScore").innerHTML = finalScorePage;
+    if (finalScorePage === 30) {
         document.querySelector("#finalMessage").innerHTML = "Wow, you got a perfect score! You're a Broadway expert!";
-    } else if (23 <= finalScore < 30) {
+    } else if (23 <= finalScorePage < 30) {
         document.querySelector("#finalMessage").innerHTML = "Nice work! You're clearly a Broadway fan!";
-    } else if (16 <= finalScore < 23) {
+    } else if (16 <= finalScorePage < 23) {
         document.querySelector("#finalMessage").innerHTML = "Not bad! You may want to brush up on your Broadway knowledge, but you're in a good spot!";
-    } else if (9 <= finalScore < 16) {
+    } else if (9 <= finalScorePage < 16) {
         document.querySelector("#finalMessage").innerHTML = "You have some studying to do...";
     } else {
         document.querySelector("#finalMessage").innerHTML = "Do you even like Broadway? Why are you playing this game?";
     }
-});
+    localStorage.clear();
+};

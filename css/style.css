@@ -76,6 +76,7 @@ button{
     font-size: 125%;
     text-align: center;
     font-weight: bold;
+    align-self: center;
 }
 button:focus{
     text-decoration: underline;
