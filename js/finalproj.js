@@ -172,16 +172,28 @@ document.querySelector("#getFinalScore").addEventListener("click", function(){
     document.getElementById("playPage").style.display = "none";
     document.getElementById("finalscore_main").style.display = "block";
     document.querySelector("#finalScore").innerHTML = JSON.stringify(currentScore);
-    if (currentScore === 30) {
+    finalScore = Number(currentScore);
+    if (finalScore === 30) {
+        console.log(finalScore);
+        console.log("Perfect score");
         document.querySelector("#finalMessage").innerHTML = "Wow, you got a perfect score! You're a Broadway expert!";
-    } else if (23 <= currentScore < 30) {
+    } else if (24 < finalScore && finalScore < 30) {
+        console.log(finalScore);
+        console.log("Good score");
         document.querySelector("#finalMessage").innerHTML = "Nice work! You're clearly a Broadway fan!";
-    } else if (16 <= currentScore < 23) {
+    } else if (15 < finalScore && finalScore < 25) {
+        console.log(finalScore);
+        console.log("Decent score");
         document.querySelector("#finalMessage").innerHTML = "Not bad! You may want to brush up on your Broadway knowledge, but you're in a good spot!";
-    } else if (9 <= currentScore < 16) {
+    } else if (9 < finalScore && finalScore < 16) {
+        console.log(finalScore);
+        console.log("Okay score");
         document.querySelector("#finalMessage").innerHTML = "You have some studying to do...";
     } else {
+        console.log(finalScore);
+        console.log("Bad Score");
         document.querySelector("#finalMessage").innerHTML = "Do you even like Broadway? Why are you playing this game?";
     }
-    console.log("Final Score Page Loaded")
+    console.log("Final Score Page Loaded");
+    localStorage.clear();
 })
