@@ -135,6 +135,11 @@ a:focus{
     width: 10%;
     padding: 1%;
 }
+.icon:focus{
+    border-style: solid;
+    border-color: #4CBB17;
+    border-width: thick;
+}
 nav li.active{
     text-decoration: underline;
     font-weight: bold;
